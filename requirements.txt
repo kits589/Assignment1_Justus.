@@ -1,0 +1,13 @@
+# Data Science Lifecycle - Assignment One
+# "Car Price Drivers: An Analysis Pipeline"
+# Verified against Python 3.13
+
+pandas>=2.2          # dataframes, qcut, pivot_table
+numpy>=1.26          # arrays, VIF via np.linalg.inv, bootstrap resampling
+matplotlib>=3.8      # figure backend
+seaborn>=0.13        # violinplot, boxplot, barplot, heatmap (mako palette)
+scipy>=1.11          # f_oneway, chi2_contingency, pearsonr, spearmanr
+scikit-learn>=1.4    # ColumnTransformer, OneHotEncoder, SelectKBest,
+                     # GradientBoostingRegressor, permutation_importance,
+                     # root_mean_squared_error
+jupyterlab>=4.0      # to run the notebook
