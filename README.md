@@ -21,9 +21,9 @@ load  ->  profile  ->  repair  ->  derive  ->  audit  ->  publish
 
 | Path | Description |
 |---|---|
-| `Assignment1_LASTNAME.ipynb` | Main notebook — all five questions, code and a written interpretation of every output |
+| `Assignment1_Justus.ipynb` | Main notebook — all five questions, code and a written interpretation of every output |
 | `automobileEDA.csv` | Dataset as provided |
-| `LASTNAME_Data.csv` | Cleaned dataset produced by section 1 (27 columns) |
+| `Ariho_Data.csv` | Cleaned dataset produced by section 1 (27 columns) |
 | `data/raw/` | Untouched copy of the source data |
 | `data/processed/` | Cleaned data written by the notebook |
 | `figures/` | 21 charts exported as PNG (`chart_01` … `chart_21`) |
