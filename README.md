@@ -1,7 +1,8 @@
 # Car Price Drivers: An Analysis Pipeline
 
-**Data Science Lifecycle (MSDS-1) — Advent 2026, Assignment One**
 Uganda Christian University · Faculty of Engineering, Design and Technology
+**Data Science Lifecycle (MSDS-1) — Advent 2026, Assignment One**
+
 
 Exploratory data analysis and feature selection on `automobileEDA.csv` (201 cars,
 29 attributes) to identify the variables that most strongly influence car price.
@@ -21,8 +22,8 @@ load  ->  profile  ->  repair  ->  derive  ->  audit  ->  publish
 
 | Path | Description |
 |---|---|
-| `Assignment1_Justus..ipynb` | Main notebook — all five questions, code and a written interpretation of every output |
-| `automobileEDA.csv` | Dataset as provided |
+| `Assignment1_Justus.ipynb` | Main notebook — all five questions, code and a written interpretation of every output |
+git | `automobileEDA.csv` | Dataset as provided |
 | `Ariho_Data.csv` | Cleaned dataset produced by section 1 (27 columns) |
 | `data/raw/` | Untouched copy of the source data |
 | `data/processed/` | Cleaned data written by the notebook |
@@ -33,7 +34,7 @@ load  ->  profile  ->  repair  ->  derive  ->  audit  ->  publish
 
 1. **Pipeline stages** — load, profile with a role assertion, repair missing values,
    derive the horsepower band, audit duplicates / outliers / redundancy, publish
-   `LASTNAME_Data.csv` with a printed decision log.
+   `Ariho_Data.csv` with a printed decision log.
 2. **Descriptive statistics** — summary statistics with coefficient of variation,
    all 67 categorical levels as one tidy frame, distributions, correlation with
    strength bands.
@@ -85,7 +86,7 @@ and a grouped split is named as the first fix.
 
 ```bash
 pip install -r requirements.txt
-jupyter lab Assignment1_LASTNAME.ipynb
+jupyter lab Assignment1_Justus.ipynb
 ```
 
 Run all cells top to bottom. Every threshold is in `CONFIG` at the top, and all
